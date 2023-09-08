@@ -1,0 +1,67 @@
+/* Container Styles */
+.container {
+  display: flex;
+  flex-direction: column;
+}
+/* Navigation Styles */
+.navigation {
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #cecea6;
+  /* padding: 2px; */
+  width: 15%;
+  border-radius: 0px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+  position: fixed;
+}
+
+/* Button Styles */
+.displayButton {
+  background-color: #5b7b7e;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  min-height: 10px;
+}
+.subButton {
+  background-color: #4f4e4d;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 15px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #a8ada3;
+}
+
+button i {
+  margin-right: 5px;
+}
+
+
+/* Sub-navigation Styles */
+.sub-navigation {
+  /* display: none; */
+  flex-direction: column;
+  align-items: flex-start;
+}
+/* Dropdown Styles */
+.dropdown {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  margin: 5px 0;
+  position: relative;
+}

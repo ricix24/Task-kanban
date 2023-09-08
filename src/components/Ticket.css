@@ -1,0 +1,82 @@
+.ticket {
+    /* border: 1px solid #ddd; */
+    padding: 10px;
+    background-color: #fff;
+  }
+
+  .note {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+    min-height: 150px; /* Minimum height */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+    /* overflow: auto; Add this to enable vertical scrolling */
+  }
+  
+  .note:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  
+  .heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.8rem;
+    color: #616163;
+    margin-bottom: 6px;
+}
+  
+.logo{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%; 
+}
+
+.paragraph {
+  color: #616163;
+  font-size: 14px;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.heading1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    font-size: 0.8rem;
+    color: #616163;
+    margin-bottom: 6px;
+}
+
+.logo1{
+    height: 15px;
+    width: 15px;
+}
+  
+
+/* ... Your existing CSS code ... */
+
+.add-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #3f51b5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  z-index: 1; /* Ensures the button is above other content */
+}
+
+/* ... Your existing CSS code ... */
